@@ -1,4 +1,4 @@
-<project name="SFDC Jenkins-ANT CI Demo" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="SFDC Jenkins-ANT CI Demo" default="test" basedir="../sfdc-ci-demo/src" xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
