@@ -1,4 +1,5 @@
 public with sharing class JobApplicationTriggerBL {
+	//Testing Git Mods Dpeloyments
 	
 	public static void closePositionOnHire(List<Job_Application__c> newJobApplications, Map<Id, Job_Application__c> oldJobApplicationsMap){
 		Boolean isInsert = false;
