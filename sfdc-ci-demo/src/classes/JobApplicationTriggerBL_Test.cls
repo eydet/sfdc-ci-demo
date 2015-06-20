@@ -1,7 +1,7 @@
 @isTest
 private class JobApplicationTriggerBL_Test {
 
-//Modified in Git Repo ** Comment IST 20JUL-9.00AM 
+//Modified in Git Repo ** Comment IST 20JUL-9.110AM 
 	
     static testMethod void insertJobApplication() {
     	Candidate__c newCandidate = new Candidate__c(First_Name__c='New', Last_Name__c='Candidate1', Email__c='new.candidate1@test.com');
