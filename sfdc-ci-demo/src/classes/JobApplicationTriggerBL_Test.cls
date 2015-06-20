@@ -1,6 +1,7 @@
 @isTest
 private class JobApplicationTriggerBL_Test {
 
+//Comment IST 20JUL-6.15AM 
 	
     static testMethod void insertJobApplication() {
     	Candidate__c newCandidate = new Candidate__c(First_Name__c='New', Last_Name__c='Candidate1', Email__c='new.candidate1@test.com');
